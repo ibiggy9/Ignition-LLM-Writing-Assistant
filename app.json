@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Ignition",
+    "slug": "ignition",
+    "plugins": [
+      "expo-apple-authentication",
+      "@react-native-firebase/app",
+      
+
+      [
+        "expo-screen-orientation",
+        
+          {
+            "initialOrientation": "PORTRAIT_UP"
+          }],
+          [
+            "expo-build-properties",
+             {
+              "ios": {
+                 "useFrameworks": "static"
+               }
+             }
+           ]
+         
+        
+    ],
+    
+    "version": "1.4.7",
+    "privacy": "unlisted",
+    "orientation": "portrait",
+    "icon": "./assets/ignitionNewIcon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/IgnitionNewSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ibiggy.ignition",
+      "buildNumber":"1.3.7",
+      "resourceClass": "m1-medium",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "simulator":true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/IgnitionNewSplash.png",
+        
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ibiggy.ignition"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "23375e08-328b-47f4-94d5-a8f1d75c6071"
+      }
+    }
+  }
+}

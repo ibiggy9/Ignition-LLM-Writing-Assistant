@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "685370795586",
+    "project_id": "ignitionmobileapp",
+    "storage_bucket": "ignitionmobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685370795586:android:d76bc3c9aec97ca5b32fdb",
+        "android_client_info": {
+          "package_name": "com.ibiggy.ignition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685370795586-0j1rce41jt3ud8ogaie1muubjj105r9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBebZ-7JyfquyYceGcvoQxNamCQ6G3eYbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685370795586-0j1rce41jt3ud8ogaie1muubjj105r9n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "685370795586-psbj3i4fo2bcc61002nar7cqu1ufh89k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ibiggy.ignition"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
