@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Purchases from 'react-native-purchases';
 
 const APIKeys = {
-  apple: 'appl_UeyiutYwrDOhVXVzqphpowVVXbE',
+  apple: '',
   google: '',
 };
 
